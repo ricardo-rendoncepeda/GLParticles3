@@ -36,13 +36,13 @@
 		35DB1DB814D73D000019183E /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DB1DB114D73D000019183E /* Target.png */; };
 		35DB1DB914D73D000019183E /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DB1DB214D73D000019183E /* YouLose.png */; };
 		35DB1DBA14D73D000019183E /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DB1DB314D73D000019183E /* YouWin.png */; };
-		AE120F4D1732E4C400244B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE120F4C1732E4C400244B0B /* Default-568h@2x.png */; };
 		AE120F501732E78600244B0B /* SGGEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE120F4F1732E78600244B0B /* SGGEmitter.m */; };
 		AE120F55173311B400244B0B /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = AE120F54173311B400244B0B /* EmitterShader.m */; };
 		AE120F5D1733131D00244B0B /* blast.caf in Resources */ = {isa = PBXBuildFile; fileRef = AE120F581733131D00244B0B /* blast.caf */; };
 		AE120F5E1733131D00244B0B /* particle_16.png in Resources */ = {isa = PBXBuildFile; fileRef = AE120F5A1733131D00244B0B /* particle_16.png */; };
 		AE120F5F1733131D00244B0B /* particle_32.png in Resources */ = {isa = PBXBuildFile; fileRef = AE120F5B1733131D00244B0B /* particle_32.png */; };
 		AE120F601733131D00244B0B /* particle_64.png in Resources */ = {isa = PBXBuildFile; fileRef = AE120F5C1733131D00244B0B /* particle_64.png */; };
+		AE7142F51802103F002D487A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7142F41802103F002D487A /* Images.xcassets */; };
 		AEA95017172AE03B0044F8E1 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA95016172AE03B0044F8E1 /* ShaderProcessor.mm */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +90,6 @@
 		35DB1DB114D73D000019183E /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
 		35DB1DB214D73D000019183E /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
 		35DB1DB314D73D000019183E /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
-		AE120F4C1732E4C400244B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AE120F4E1732E78600244B0B /* SGGEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGEmitter.h; sourceTree = "<group>"; };
 		AE120F4F1732E78600244B0B /* SGGEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGEmitter.m; sourceTree = "<group>"; };
 		AE120F511733111A00244B0B /* Emitter.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
@@ -101,6 +100,7 @@
 		AE120F5A1733131D00244B0B /* particle_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle_16.png; sourceTree = "<group>"; };
 		AE120F5B1733131D00244B0B /* particle_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle_32.png; sourceTree = "<group>"; };
 		AE120F5C1733131D00244B0B /* particle_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle_64.png; sourceTree = "<group>"; };
+		AE7142F41802103F002D487A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../GLParticles3/Images.xcassets; sourceTree = "<group>"; };
 		AEA95015172AE03B0044F8E1 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
 		AEA95016172AE03B0044F8E1 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,7 +144,6 @@
 		35DB1D4114D72B5C0019183E = {
 			isa = PBXGroup;
 			children = (
-				AE120F4C1732E4C400244B0B /* Default-568h@2x.png */,
 				35DB1D5614D72B5C0019183E /* SimpleGLKitGame */,
 				35DB1D4F14D72B5C0019183E /* Frameworks */,
 				35DB1D4D14D72B5C0019183E /* Products */,
@@ -180,6 +179,7 @@
 			children = (
 				35CCE90114E042B000A3E129 /* CocosDenshion */,
 				35DB1DAC14D73CFF0019183E /* SGGResources */,
+				AE7142F41802103F002D487A /* Images.xcassets */,
 				35DB1D5F14D72B5C0019183E /* SGGAppDelegate.h */,
 				35DB1D6014D72B5C0019183E /* SGGAppDelegate.m */,
 				35DB1D6714D72C260019183E /* MainStoryboard.storyboard */,
@@ -323,10 +323,10 @@
 				35DB1DB514D73D000019183E /* pew-pew.wav in Resources */,
 				35DB1DB614D73D000019183E /* Player.png in Resources */,
 				35DB1DB714D73D000019183E /* Projectile.png in Resources */,
+				AE7142F51802103F002D487A /* Images.xcassets in Resources */,
 				35DB1DB814D73D000019183E /* Target.png in Resources */,
 				35DB1DB914D73D000019183E /* YouLose.png in Resources */,
 				35DB1DBA14D73D000019183E /* YouWin.png in Resources */,
-				AE120F4D1732E4C400244B0B /* Default-568h@2x.png in Resources */,
 				AE120F5D1733131D00244B0B /* blast.caf in Resources */,
 				AE120F5E1733131D00244B0B /* particle_16.png in Resources */,
 				AE120F5F1733131D00244B0B /* particle_32.png in Resources */,
@@ -430,9 +430,12 @@
 		35DB1D6514D72B5C0019183E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleGLKitGame/GLParticles3-Prefix.pch";
 				INFOPLIST_FILE = "SimpleGLKitGame/GLParticles3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = GLParticles3;
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,9 +444,12 @@
 		35DB1D6614D72B5C0019183E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleGLKitGame/GLParticles3-Prefix.pch";
 				INFOPLIST_FILE = "SimpleGLKitGame/GLParticles3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = GLParticles3;
 				WRAPPER_EXTENSION = app;
 			};
